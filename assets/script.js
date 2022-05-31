@@ -16,7 +16,7 @@ var specialCase = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", "
 
 
 function generatePassword() {
-  console.log("banana")
+
   var chars = prompt("How many characters would you like your password to contain? (Between 8-128");
 
   if (chars < 8 || chars > 128) {
